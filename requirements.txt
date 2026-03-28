@@ -1,0 +1,36 @@
+# ==========================================
+# STABLE DIFFUSION STUDIO - REQUIREMENTS
+# ==========================================
+#
+# HOW TO INSTALL REQUIREMENTS:
+# In your terminal, run: pip install -r requirements.txt
+#
+# HOW TO RUN THE PROJECT:
+# 1. Open your terminal in this project folder.
+# 2. Make sure you have your HuggingFace token setup (if required by your code).
+# 3. Run the following command: python app.py
+# 4. Click the local URL (e.g., http://127.0.0.1:7860) that appears in the console to open the UI in your browser.
+# 
+# ==========================================
+
+# 1. Core Deep Learning Libraries
+# PyTorch is the main engine running the neural networks on your CPU/GPU
+torch            
+torchvision      
+
+# 2. HuggingFace Libraries (For loading the AI Models)
+# diffusers runs the actual stable diffusion logic
+diffusers>=0.14.0 
+# transformers handles processing your text prompts into math
+transformers     
+# accelerate makes loading massive 5GB models much faster and safer
+accelerate       
+
+# 3. User Interface
+# Gradio builds the interactive web application
+gradio           
+
+# 4. Image Enhancement and Utilities
+# realesrgan is used for upscaling images to make them higher resolution
+realesrgan       
+python-dotenv    # Used for securely loading your .env file
