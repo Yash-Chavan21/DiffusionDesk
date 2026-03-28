@@ -1,7 +1,7 @@
 # DiffusionDesk
 A lightweight, local Gradio application for high-quality image generation using the Dreamshaper-8 Stable Diffusion model, featuring built-in 4x AI upscaling and a local gallery system.
 
-# DiffusionDesk (or Your Chosen Name)
+# DiffusionDesk
 
 A sleek, lightweight web interface built with [Gradio](https://gradio.app/) and [Hugging Face Diffusers](https://huggingface.co/docs/diffusers/index) to run Stable Diffusion models locally on your machine. 
 
