@@ -18,12 +18,8 @@ This project uses the **Dreamshaper-8** model for high-quality generations and i
 - Python 3.9+
 - An NVIDIA GPU with CUDA support (Recommended for fast generation)
 - A [Hugging Face Account](https://huggingface.co/) and Access Token.
+  This is the image that being Generated:
+  <img width="1895" height="829" alt="Screenshot 2026-03-28 095540" src="https://github.com/user-attachments/assets/0af4b9a2-6d3b-4079-b2b1-d446f87a84e4" />
+  <img width="1872" height="812" alt="Screenshot 2026-03-28 133929" src="https://github.com/user-attachments/assets/347f29cb-1634-4b89-afc4-b2ec71ca5073" />
 
-## 📦 Installation
 
-1. **Clone the repository:**
-   ```bash
-
-   
-   git clone https://github.com/yourusername/YourProjectName.git
-   cd YourProjectName
